@@ -14,12 +14,31 @@ int getNumberFromUser()
 
 int max(int number_a, int number_b)
 {
+    if (number_a < number_b)
+    {
+        return number_b;
+    }
+    else
+    {
+        return number_a;
+    }
 }
 
 int min(int number_a, int number_b)
 {
+    if (number_a < number_b)
+    {
+        return number_a;
+    }
+    else
+    {
+        return number_b;
+    }
 }
 
 float mean(int number_a, int number_b)
 {
+    float sum = (float)number_a + (float)number_b;
+    float mean = sum / 2;
+    return mean;
 }

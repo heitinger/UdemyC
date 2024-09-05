@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": false,
-      "cwd": "/home/hannah/workspace/UdemyC/Chapter04_Loops",
-      "program": "/home/hannah/workspace/UdemyC/Chapter04_Loops/build/Debug/outDebug",
+      "cwd": "/home/hannah/workspace/UdemyC/Chapter05_Functions/_Exercise/Exercise",
+      "program": "/home/hannah/workspace/UdemyC/Chapter05_Functions/_Exercise/Exercise/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
