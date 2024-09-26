@@ -17,10 +17,10 @@ int main()
     *p_e = *p_d + *p_f;
 
     // Check what the output is, without running this file!
-    printf("%d\n", a);
-    printf("%d\n", *p_d);
-    printf("%d\n", *p_e);
-    printf("%d\n", *p_f);
+    printf("%d\n", a); //13
+    printf("%d\n", *p_d); //15
+    printf("%d\n", *p_e); //15
+    printf("%d\n", *p_f); //13
 
     return 0;
 }
