@@ -2,10 +2,10 @@
 
 void swap(int *x, int *y)
 {
-    int i = *x;
+    int temp = *x;
 
     *x = *y;
-    *y = i;
+    *y = temp;
 }
 
 int main()
