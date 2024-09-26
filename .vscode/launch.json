@@ -6,8 +6,8 @@
       "type": "lldb",
       "request": "launch",
       "args": [],
-      "cwd": "/Users/hannah/UdemyC/Chapter06_Pointers/_Exercise/Exercise",
-      "program": "/Users/hannah/UdemyC/Chapter06_Pointers/_Exercise/Exercise/build/Debug/outDebug"
+      "cwd": "/Users/hannah/UdemyC/Chapter07_Arrays",
+      "program": "/Users/hannah/UdemyC/Chapter07_Arrays/build/Debug/outDebug"
     }
   ]
 }
