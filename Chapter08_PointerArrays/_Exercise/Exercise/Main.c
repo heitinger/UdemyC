@@ -66,6 +66,20 @@ void printMatrix(int **matrix, unsigned int num_rows, unsigned int num_cols)
     }
 }
 
+int **transposeMatrix(int **matrix, unsigned int num_rows, unsigned int num_cols)
+{
+    int **matrix_temp = createMatrix(num_cols, num_rows, 0);
+    for (unsigned int i = 0; i < num_rows; i++)
+    {
+        for (unsigned int j = 0; j < num_cols; j++)
+        {
+            matrix_temp[j][i] = matrix[i][j];
+        }
+    }
+    matrix = matrix_temp;
+    return matrix;
+}
+
 int **freeMatrix(int **matrix, unsigned int num_rows)
 {
     for (unsigned int i = 0; i < num_rows; i++)
